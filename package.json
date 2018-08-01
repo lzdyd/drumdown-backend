@@ -1,0 +1,14 @@
+{
+  "name": "drumdown-backend",
+  "version": "0.0.0",
+  "description": "REST api server for pet project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "lzdyd",
+  "license": "ISC"
+}
