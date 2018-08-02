@@ -2,7 +2,7 @@
   "name": "drumdown-backend",
   "version": "0.0.0",
   "description": "REST api server for pet project",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
