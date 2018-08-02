@@ -3,12 +3,28 @@
   "version": "0.0.0",
   "description": "REST api server for pet project",
   "main": "server.js",
+  "engines": {
+    "node": ">=8.11.3",
+    "npm": ">=6.2.0",
+    "yarn": ">=1.7.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [
     "nodejs"
   ],
   "author": "lzdyd",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-jwt": "^5.3.1",
+    "mongodb": "^3.1.1"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "eslint": "^5.2.0",
+    "eslint-config-airbnb-base": "^13.0.0"
+  }
 }
