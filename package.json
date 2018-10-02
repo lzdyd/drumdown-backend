@@ -9,7 +9,7 @@
     "yarn": ">=1.7.0"
   },
   "scripts": {
-    "start": "nodemon server.js"
+    "dev": "nodemon server.js"
   },
   "keywords": [
     "nodejs"
