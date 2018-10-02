@@ -17,16 +17,19 @@
   "author": "lzdyd",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "cors": "^2.8.4",
     "express": "^4.16.3",
     "express-jwt": "^5.3.1",
-    "mongodb": "^3.1.1"
+    "mongodb": "^3.1.1",
+    "mongoose": "^5.2.7"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
     "eslint": "^5.3.0",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-prettier": "^2.6.2",
     "nodemon": "^1.18.3",
     "prettier": "^1.14.1"
