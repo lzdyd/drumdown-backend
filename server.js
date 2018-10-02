@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 MongoClient.connect(db.url, (err, database) => {
   if (err) return console.log(err);
-  require('./src/routes')(app, database);
+  require('./src/routes')(app, database.db());
   app.listen(port, () => {
     console.log(port);
   });
